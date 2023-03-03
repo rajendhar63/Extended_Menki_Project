@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser</title>
+</head>
+
+<body>
+      <h1>
+          People Entered:
+      </h1>
+      <h2 id="count_el">0</h2>
+      <button id="increment-btn" onclick="increment()">INCREMENT</button>
+      <br><br>
+      
+      <form method="post" action="submit.php" >
+          Name <input type="text" name="fullname" id="fname"><br><br>
+          Password<input type="password" name="pass" id="pass"><br><br>
+          <button onclick="submit()" id="submit">Submit</button>
+
+      </form>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
